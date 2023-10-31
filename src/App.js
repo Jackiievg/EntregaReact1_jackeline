@@ -1,14 +1,22 @@
 import './App.css';
-import CartWidget from '..src/Components/CartWidget/CartWidget';
 import ItemListContainer from '../src/Components/ItemListContainer/ItemListContainer';
 import NavBar from '../src/Components/NavBar/NavBar';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer'
+import Error from './Components/Error';
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <ItemListContainer greeting='bienvenido a la tienda botanica'/>
-      <CartWidget/>
+      <BrowserRouter>
+      <NavBar/>
+      <Routes>
+        <Route path='/' element={<ItemListContainer />} />
+        <Route path='/category/:id' element={<ItemListContainer/>} />
+        <Route path='/item/:id' element={<ItemDetailContainer />} />
+        <Route path='*' element={<Error />} />
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }

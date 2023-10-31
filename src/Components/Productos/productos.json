@@ -1,0 +1,10 @@
+[
+    {"id":1, "nombre":"Suculenta", "descripcion":"Echeveria Elegans", "imagen":"https://cdn.pixabay.com/photo/2021/10/04/06/28/cactus-6679665_1280.jpg", "precio":7000, "stock":10, "categoria":"Plantas"},
+    {"id":2, "nombre":"Captus", "descripcion":"Echinopsis spachiana", "imagen":"https://media.istockphoto.com/id/1473774893/es/foto/planta-de-cactus-sobre-fondo-blanco.jpg?s=2048x2048&w=is&k=20&c=VjPXtu8BV4pPAHEw4Y-M9UEJGrBTOgLjs3fA8tF1fA4=", "precio":5000, "stock":8, "categoria":"Plantas"},
+    {"id":3, "nombre":"Suculenta", "descripcion":"Hawoethiopsis fasciata", "imagen":"https://media.istockphoto.com/id/172279916/es/foto/cactus-rellenos.jpg?s=2048x2048&w=is&k=20&c=unndmGjsLFT3v4GsEEExWQiErSABbXJnhqUj-IszCAM=", "precio":120000, "stock":10, "categoria":"Plnatas" },
+    {"id":4, "nombre":"Rosas", "descripcion":"Rosas rosadas", "imagen":"https://cdn.pixabay.com/photo/2013/08/22/19/18/flowers-174817_1280.jpg", "precio":2000, "stock":10, "categoria":"Plantas"},
+    {"id":5, "nombre":"Margaritas", "descripcion":"Margaritas blancas", "imagen":"https://cdn.pixabay.com/photo/2023/07/14/10/50/flower-8126748_1280.jpg", "precio":4300, "stock":10, "categoria":"Plantas"},
+    {"id":6, "nombre":"Aloe", "descripcion":"Aloe Vera", "imagen":"https://cdn.pixabay.com/photo/2020/01/01/10/11/aloe-vera-4733276_1280.jpg", "precio":3000, "stock":10, "categoria":"Plantas"},
+    {"id":7, "nombre":"Oreja de elefante", "descripcion":"Colocasia esculenta", "imagen":"https://cdn.pixabay.com/photo/2023/10/07/18/15/plant-8300734_1280.jpg", "precio":10000, "stock":10, "categoria":"Plantas"},
+    {"id":8, "nombre":"Ficus", "descripcion":"Familia Moraceae", "imagen":"https://cdn.pixabay.com/photo/2017/09/03/18/03/pipal-leaves-2711413_1280.jpg", "precio":500, "stock":10000, "categoria":"Plantas"}
+    ]

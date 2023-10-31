@@ -1,11 +1,13 @@
 import React from 'react'
-import { IBsMinecart } from "react-icons/bs";
+import { BsBag } from "react-icons/bs";
+
 const CartWidget = () => {
     return (
         <div>
-            <button>
-                <IBsMinecart/>
+            <button type="button ">
+                <BsBag/>
             </button>
+
         </div>
     )
 }
