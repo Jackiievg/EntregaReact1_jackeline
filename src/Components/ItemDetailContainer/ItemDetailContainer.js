@@ -13,7 +13,7 @@ const ItemDetailContainer = () => {
             setTimeout(() => {
                 resolve(productos.find(item=> item.id === parseInt(id)))
                 
-            }, 1000)
+            }, 2000)
         });
         promise.then((data)=>{
             setItem(data)

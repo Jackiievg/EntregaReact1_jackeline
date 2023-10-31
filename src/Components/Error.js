@@ -5,6 +5,7 @@ const Error = () => {
         <div>
             <h1>Error 404!</h1>
             <h4>Pagina en construccion :D</h4>
+            <h4>Saludos</h4>
         </div>
         )
     }
